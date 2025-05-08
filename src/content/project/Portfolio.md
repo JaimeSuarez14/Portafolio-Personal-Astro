@@ -106,4 +106,4 @@ urlGithub: 'https://github.com/tuusuario/proyecto1'
   
 - urlGithub: Enlace al repositorio.
 
-## Con estos pasos ya puedes comenzar a construir y personalizar tu propio portafolio para mostrar tu trabajo como desarrollador.
+Con estos pasos ya puedes comenzar a construir y personalizar tu **propio portafolio** para mostrar tu trabajo como desarrollador.
