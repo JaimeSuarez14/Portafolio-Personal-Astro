@@ -13,6 +13,10 @@ urlGithub: 'https://github.com/JaimeSuarez14/Data_Max.git'
 # Tienda Online Data Max
 #### Plataforma de Venta en Línea
 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+
 Este proyecto es una aplicación de carrito de compras simple creada con HTML, CSS y JavaScript. Permite a los usuarios ver una lista de productos, agregarlos a un carrito de compras y ver el total del carrito.
 
 
@@ -44,22 +48,51 @@ Este proyecto es una aplicación de carrito de compras simple creada con HTML, C
 
 ## Tecnologías Utilizadas
 
-La plataforma **DaysSport** está construida utilizando un conjunto de tecnologías modernas que aseguran una experiencia de usuario fluida y un rendimiento óptimo:
+La plataforma **Data Max** está construida utilizando un conjunto de tecnologías modernas que aseguran una experiencia de usuario fluida y un rendimiento óptimo:
 
-- **React**: Para una interfaz de usuario interactiva y dinámica, permitiendo una experiencia de compra en línea ágil.
-- **Node.js**: Como entorno de ejecución para el backend, proporcionando rendimiento y escalabilidad.
-- **Vite**: Para un desarrollo rápido y eficiente, mejorando los tiempos de carga y la experiencia en general.
-- **Stripe**: Integración para realizar pagos seguros y eficaces a través de una plataforma confiable y globalmente reconocida.
-- **Tailwind CSS**: Para diseñar una interfaz moderna, adaptativa y fácil de usar.
-- **MongoDB**: Como base de datos NoSQL para gestionar el inventario y las transacciones de manera escalable.
+- **Javascript**: Para una interfaz de usuario interactiva y dinámica, permitiendo una experiencia de compra en línea ágil.
+- **Node.js**: Como entorno de desarrollo.
+- **CSS**: Para personalizar los estilos.
+- **Bootstrap**: Para diseñar una interfaz moderna, adaptativa y fácil de usar.
 
 
+## 🔧 Instalación y Ejecución
 
-## Ventajas de E-Commerce DaysSport
+Para ejecutar este proyecto localmente, necesitarás tener [Node.js](https://nodejs.org/) y npm instalados.
 
-- **Experiencia de usuario optimizada**: Gracias a la tecnología de React y Tailwind, los usuarios disfrutan de una experiencia de compra fluida, intuitiva y visualmente atractiva.
-- **Pagos rápidos y seguros**: La integración con Stripe garantiza que todas las transacciones se realicen de forma segura y sin complicaciones.
-- **Gestión eficiente**: Los administradores tienen el control total sobre los productos y las ventas, permitiendo una gestión ágil y una toma de decisiones informada.
+1.  Clona el repositorio:
+    ```bash
+    git clone https://github.com/JaimeSuarez14/Data_Max.git
+    ```
 
-**E-Commerce DaysSport** está en constante evolución para ofrecer nuevas funcionalidades y mejorar la experiencia tanto para los compradores como para los administradores, consolidándose como una solución integral para la venta en línea de productos deportivos.
+2.  Navega al directorio del proyecto:
+    ```bash
+    cd Data_Max
+    ```
 
+3.  Instala las dependencias de desarrollo:
+    ```bash
+    npm install
+    ```
+
+4.  Inicia el servidor de desarrollo:
+    ```bash
+    npm start
+    ```
+
+Esto abrirá el proyecto en tu navegador web predeterminado.
+
+---
+
+## 📝 Uso
+- Usuario Demo: jaime
+- Password: 123456
+
+1.  Abre la aplicación en tu navegador web.
+2.  Explora la lista de productos disponibles.
+3.  Haz clic en "Agregar al Carrito" para agregar productos al carrito.
+4.  Ve a la sección del carrito para ver los productos agregados.
+5.  Puedes eliminar productos del carrito si lo deseas.
+6.  El total del carrito se actualizará dinámicamente.
+7.  Puedes finalizar la compra y ver un mensaje de confirmación.
+8. Inicia sesión con tu usuario y contraseña para acceder a más funcionalidades.
