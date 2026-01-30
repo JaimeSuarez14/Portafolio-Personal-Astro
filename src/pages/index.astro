@@ -39,7 +39,7 @@ const projects = (await getCollection("project")).sort(
             <div class="relative p-1">
               <h1
                 transition:name={`${project.id}`}
-                class="[text-shadow:_0_2px_4px_rgb(99_102_241_/_0.8)] text-xl md:text-2xl leading-snug font-manrope  text-center  font-semibold italic text-heading-main-light dark:text-heading-alt-dark mb-0.5"
+                class="[text-shadow:_0_2px_4px_rgb(99_102_241_/_0.8)] text-xl md:text-2xl leading-snug font-manrope  text-center  font-semibold italic text-heading-main-light dark:text-heading-alt-dark mb-0.5 py-2"
               >
                 {project.data.title}
               </h1>
