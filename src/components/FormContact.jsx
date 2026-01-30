@@ -64,8 +64,9 @@ const ContactForm = () => {
                   className="block text-xl font-bold text-gray-700 dark:text-gray-200 mb-2 text-left"
                 >
                   <i className="bi bi-person-fill text-teal-500 dark:text-indigo-400 mr-2"></i>{" "}
-                  Nombre Completo / Empresa
+                  Nombre Completo / Empresa 
                 </label>
+                
                 <input
                   type="text"
                   id="name"

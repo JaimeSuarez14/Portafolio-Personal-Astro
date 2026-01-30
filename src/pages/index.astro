@@ -10,6 +10,10 @@ import Vite from "@/icons/Vite.astro";
 import IconsUtils from "@/components/Utils/IconsUtils.astro";
 import ButtonsCards from "@/components/ButtonsCards.astro";
 import Express from "@/icons/Express.astro";
+import Bootstrap from "@/icons/Bootstrap.astro";
+import Javascript from "@/icons/Javascript.astro";
+import HTML from "@/icons/HTML.astro";
+import Css from "@/icons/Css.astro";
 
 const projects = (await getCollection("project")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -78,9 +82,34 @@ const projects = (await getCollection("project")).sort(
                       <Mongo />
                     </IconsUtils>
                   )}
+                  {
+                    tech==="Javascript" && (
+                      <IconsUtils utils="Javascript">
+                        <Javascript />
+                      </IconsUtils>
+                    )
+                  }
+                  {
+                    tech==="HTML" && (
+                      <IconsUtils utils="HTML">
+                        <HTML />
+                      </IconsUtils>
+                    )
+                  }
+
                   {tech === "Node" && (
                     <IconsUtils utils="Node">
                       <Node />
+                    </IconsUtils>
+                  )}
+                  {tech === "Bootstrap" && (
+                    <IconsUtils utils="Bootstrap">
+                      <Bootstrap />
+                    </IconsUtils>
+                  )}
+                  {tech === "Css" && (
+                    <IconsUtils utils="CSS">
+                      <Css />
                     </IconsUtils>
                   )}
                   {tech === "Vite" && (
@@ -102,6 +131,10 @@ const projects = (await getCollection("project")).sort(
                     "Node",
                     "Vite",
                     "Express",
+                    "Bootstrap",
+                    "Javascript",
+                    "HTML",
+                    "Css"
                   ].includes(tech) && <span>{tech}</span>}
                 </li>
               ))}

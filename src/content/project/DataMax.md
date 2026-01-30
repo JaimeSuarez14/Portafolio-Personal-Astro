@@ -2,7 +2,7 @@
 title: 'Data Max'
 subtitle: 'E-Commerce'
 description: 'Este proyecto es una aplicación de carrito de compras simple creada con HTML, CSS y JavaScript. Permite a los usuarios ver una lista de productos, agregarlos a un carrito de compras y ver el total del carrito.'
-utils: ['React', 'Tailwind', 'Mongo']
+utils: [ 'HTML', 'Javascript',"Css" ,'Bootstrap']
 heroImage: '/images/DataMax/escritorio-home.png'
 pubDate: 'Jul 09 2025'
 deployed: true
@@ -12,11 +12,13 @@ urlGithub: 'https://github.com/JaimeSuarez14/Data_Max.git'
 
 # Tienda Online Data Max
 #### Plataforma de Venta en Línea
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-
+<div className="grid grid-cols-2 md:grid-cols-4 md:gap-1">
+<img className="m-0" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img className="m-0"  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+<img className="m-0"  src="https://img.shields.io/badge/javascript-f3c63e?style=for-the-badge&logo=javascript&logoColor=white" alt="javascript">
+<img className="m-0"  src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+<img className="m-0"  src="https://img.shields.io/badge/bootstrap-674ea7?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstraps">
+</div>
 Este proyecto es una aplicación de carrito de compras simple creada con HTML, CSS y JavaScript. Permite a los usuarios ver una lista de productos, agregarlos a un carrito de compras y ver el total del carrito.
 
 
