@@ -5,7 +5,6 @@ function getInitialTheme() {
   // Solo acceder a localStorage si estamos en el navegador
   if (typeof window !== 'undefined') {
     const savedTheme = localStorage.getItem("theme");
-    console.log("📦 Tema guardado en localStorage:", savedTheme);
     return savedTheme === "dark" ? true : false;
   }
   return false; // Por defecto, tema light
@@ -30,5 +29,4 @@ export const toggleTheme = () => {
   themeStore.set(newTheme);
 
   // Mostrar el valor en consola para depuración
-  console.log(`🎨 Nuevo tema guardado: ${themeValue} (isDark: ${newTheme})`);
 };

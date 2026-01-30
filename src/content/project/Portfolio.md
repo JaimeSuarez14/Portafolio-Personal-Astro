@@ -1,10 +1,10 @@
 ---
-title: 'Personalizacion - Guia'
-subtitle: 'Portfolio para devs'
-description: 'Este es un pequeño proyecto personal en el que desarrollé una plantilla de portfolio responsive.'
-utils: ['Astro', 'Tailwind', 'React']
+title: "Personalizacion - Guia"
+subtitle: "Portfolio para devs"
+description: "Este es un pequeño proyecto personal en el que desarrollé una plantilla de portfolio responsive."
+utils: ["Astro", "Tailwind", "React"]
 heroImage: /images/Portfolio/portfolio1.png
-pubDate: 'Feb 09 2025'
+pubDate: "Feb 09 2025"
 ---
 
 # Portafolio Web Personal
@@ -13,17 +13,16 @@ pubDate: 'Feb 09 2025'
 
 Este es mi **portafolio web**, un sitio desarrollado con **Astro** para mostrar mi experiencia, habilidades y proyectos realizados. En él encontrarás una presentación clara de quién soy, qué tecnologías manejo, y cómo puedes contactarme. La estructura está pensada para ser intuitiva y visualmente atractiva, adaptándose a cualquier dispositivo.
 
-
 <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 items-center h-auto">
   <div className="flex flex-col ">
-   <div class="flex flex-col text-center">
+    <div class="flex flex-col text-center">
     <img src="/images/Portfolio/portfolio1.png" alt="Panadería Astro 1" className="w-full mx-auto object-cover shadow-lg hover:scale-105 transform transition-all  p-1 rounded-lg"/>
     <span class="-mt-7 dark:text-paragraph-dark text-paragraph-light">Hero / Banner Days</span>
-   </div>
-   <div class="flex flex-col text-center">
+    </div>
+    <div class="flex flex-col text-center">
      <img src="/images/Portfolio/portfolio2.png" alt="Panadería Astro 2" className=" w-full h-full object-cover shadow-lg hover:scale-105 transform transition-all  p-1 rounded-lg"/>
      <span class="-mt-7 dark:text-paragraph-dark text-paragraph-light">Managment Days</span>
-  </div>
+    </div>
   </div>
   <div className="flex flex-col overflow-hidden min-h-full mx-auto
   ">
@@ -54,7 +53,6 @@ Además, funciona como una demostración en vivo de mis conocimientos en desarro
 ## ¿Cómo adaptarlo?
 
 Para personalizar este portafolio, modifica las siguientes variables en el archivo `.env` que deberas crear:
-
 
 ```env
 NOMBRE_USUARIO_PORTFOLIO=
@@ -103,8 +101,6 @@ urlGithub:'github url proyecto'
 - deployed: true si está online, false si no.
 
 - url: Enlace al sitio si está publicado.
-  
 - urlGithub: Enlace al repositorio.
-
 
 Con estos pasos ya puedes comenzar a construir y personalizar tu **propio portafolio** para mostrar tu trabajo como desarrollador.

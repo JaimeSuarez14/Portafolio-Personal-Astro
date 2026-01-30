@@ -27,7 +27,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="relative w-full min-h-[90dvh] p-2 gap-2 bg-transparent dark:bg-gray-900 transform transition-all sm:mb-4">
+    <section className="relative w-full min-h-[90dvh] p-2 gap-2 bg-transparent  transform transition-all sm:mb-4">
       <div id="contact" className="text-center">
         {/* --- MENSAJE ENVIADO --- */}
         {formSubmitted ? (

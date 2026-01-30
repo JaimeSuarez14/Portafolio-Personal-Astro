@@ -2,7 +2,6 @@
 import LibraryIcon from "@/icons/Library.astro";
 import SideMenuItems from "./SideMenuItems.jsx";
 import Letter from "@/icons/Letter.astro";
-import Spotify from "@/icons/Spotify.astro";
 import ThemeToggleButton from "./ThemeToggleButton";
 import Twitter from "@/icons/Twitter.astro";
 import Github from "@/icons/GithubSide.astro";
@@ -11,6 +10,7 @@ import CV from "@/icons/CV.astro";
 import SideLi from "@/components/SideBar/SideLi.astro";
 import SideMenuModal from "./SideMenuModal.astro";
 import IconsUtil from "../Utils/IconsUtils.astro";
+import WhatsApp from "@/icons/WhatsApp.astro";
 
 const person = import.meta.env.NOMBRE_USUARIO_PORTFOLIO || "Name";
 const alias = import.meta.env.ALIAS_USUARIO_PORTFOLIO || "Alias";
@@ -19,18 +19,18 @@ const role2 = import.meta.env.SEGUNDA_CARACTERISTICA_PORTFOLIO || "Role 2";
 const experience = import.meta.env.EXPERIENCIA_PORTFOLIO || "Experience";
 const github = import.meta.env.GITHUB_USUARIO_PORTFOLIO || "#";
 const linkedin = import.meta.env.LINKEDIN_USUARIO_PORTFOLIO || "#";
-const spotify = import.meta.env.SPOTIFY_USUARIO_PORTFOLIO || "#";
 const twitter = import.meta.env.X_USUARIO_PORTFOLIO || "#";
+const whatsapp = import.meta.env.LINK_WHATSAPP || " ";
 ---
 
 <div
-  class="z-40 rounded-lg p-2 border-r-2 border-b-2 mx-0.5 border-border-light bg-white dark:border-border-dark"
+  class="z-40 rounded-lg p-2 border-r-2 border-b-2 mx-0.5 border-border-light bg-white dark:border-amber-50 dark:bg-gray-950"
 >
   <div
-    class="flex flex-col items-center justify-center text-paragraph-light dark:text-paragraph-dark"
+    class="flex flex-col items-center justify-center text-paragraph-light dark:text-paragraph-dark pb-2"
   >
     <ThemeToggleButton client:only="react" />
-    <div class="max-w-56 rounded-full overflow-hidden p-8 -mb-6">
+    <div class="max-w-56 rounded-full overflow-hidden p-6 -mb-6">
       <img
         src="../images/perfil.png"
         alt="avatar"
@@ -48,15 +48,15 @@ const twitter = import.meta.env.X_USUARIO_PORTFOLIO || "#";
       >{alias}</span
     >
     <ul class="flex flex-col w-full select-none">
-      <SideLi role={`${role1}`} />
-      <SideLi role={`${role2}`} />
-      <SideLi role={`${experience}`} />
+      <SideLi role={`${role1}`} href={role1}/>
+      <SideLi role={`${role2}`} href={role2} />
+      <SideLi role={`${experience}`} href={experience} />
     </ul>
   </div>
 </div>
 
 <div
-  class="flex flex-col justify-between rounded-lg p-2 border-r-2 border-t-2 border-border-light dark:border-border-dark mx-0.5 flex-1 mb-7 md:mb-4 overflow-auto bg-white"
+  class="flex flex-col justify-between rounded-lg p-2 border-r-2 border-t-2 border-border-light dark:border-amber-50 dark:bg-gray-950 mx-0.5 flex-1 mb-7 md:mb-4 overflow-auto bg-white"
 >
   <nav>
     <!-- Enlace de Inicio - Proyectos -->
@@ -66,7 +66,7 @@ const twitter = import.meta.env.X_USUARIO_PORTFOLIO || "#";
     </SideMenuItems>
 
     <!-- Enlace al CV -->
-    <SideMenuItems href="../CV-Example.pdf" client:visible>
+    <SideMenuItems href="../Curriculum-Jaime-Suarez.pdf" client:visible>
       <CV />
       <span>Mi CV</span>
     </SideMenuItems>
@@ -81,9 +81,8 @@ const twitter = import.meta.env.X_USUARIO_PORTFOLIO || "#";
     <SideMenuModal empresa="Bussiness/Empresa" url="../#" />
 
     <!-- Enlace a Spotify - último elemento -->
-    <SideMenuItems href={`${spotify}`} client:visible>
-      <Spotify />
-      Lista Favorita :3
+    <SideMenuItems href={whatsapp} client:visible>
+        <WhatsApp />WhatsApp
     </SideMenuItems>
   </nav>
 
