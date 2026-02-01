@@ -1,5 +1,4 @@
 ---
-import LibraryIcon from "@/icons/Library.astro";
 import SideMenuItems from "./SideMenuItems.jsx";
 import Letter from "@/icons/Letter.astro";
 import ThemeToggleButton from "./ThemeToggleButton";
@@ -11,6 +10,7 @@ import SideLi from "@/components/SideBar/SideLi.astro";
 import SideMenuModal from "./SideMenuModal.astro";
 import IconsUtil from "../Utils/IconsUtils.astro";
 import WhatsApp from "@/icons/WhatsApp.astro";
+import Code from "@/icons/Code.astro";
 
 const person = import.meta.env.NOMBRE_USUARIO_PORTFOLIO || "Name";
 const alias = import.meta.env.ALIAS_USUARIO_PORTFOLIO || "Alias";
@@ -61,7 +61,7 @@ const whatsapp = import.meta.env.LINK_WHATSAPP || " ";
   <nav>
     <!-- Enlace de Inicio - Proyectos -->
     <SideMenuItems href="/" client:visible>
-      <LibraryIcon />
+      <Code />
       Proyectos
     </SideMenuItems>
 
