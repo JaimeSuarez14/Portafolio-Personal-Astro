@@ -6,8 +6,8 @@ utils: [ 'Vite', 'React',"Tailwind" ,'Javascript']
 heroImage: "/images/LandingCarritoCompras/principal-desktop.png"
 pubDate: 'Jul 09 2025'
 deployed: true
-url: 'https://jaimesuarez14.github.io/Data_Max/login.html'
-urlGithub: 'https://github.com/JaimeSuarez14/Data_Max.git'
+url: 'https://carritocompraschallenged.netlify.app'
+urlGithub: 'https://github.com/JaimeSuarez14/Product-list-with-cart---Challenge.git'
 ---
 
 # Landing Page Carrito Compras
@@ -61,12 +61,13 @@ Para ejecutar este proyecto localmente, necesitarás tener [Node.js](https://nod
 
 1.  Clona el repositorio:
     ```bash
-    git clone https://github.com/JaimeSuarez14/Data_Max.git
+    git clone https://github.com/JaimeSuarez14/Product-list-with-cart---Challenge.git
     ```
 
 2.  Navega al directorio del proyecto:
     ```bash
-    cd Data_Max
+    cd Product-list-with-cart---Challenge
+
     ```
 
 3.  Instala las dependencias de desarrollo:
@@ -76,7 +77,7 @@ Para ejecutar este proyecto localmente, necesitarás tener [Node.js](https://nod
 
 4.  Inicia el servidor de desarrollo:
     ```bash
-    npm start
+    npm run dev
     ```
 
 Esto abrirá el proyecto en tu navegador web predeterminado.
@@ -84,8 +85,7 @@ Esto abrirá el proyecto en tu navegador web predeterminado.
 ---
 
 ## 📝 Uso
-- Usuario Demo: jaime
-- Password: 123456
+- El proyecto no tiene demo acceso directo.
 
 1.  Abre la aplicación en tu navegador web.
 2.  Explora la lista de productos disponibles.
@@ -94,4 +94,4 @@ Esto abrirá el proyecto en tu navegador web predeterminado.
 5.  Puedes eliminar productos del carrito si lo deseas.
 6.  El total del carrito se actualizará dinámicamente.
 7.  Puedes finalizar la compra y ver un mensaje de confirmación.
-8. Inicia sesión con tu usuario y contraseña para acceder a más funcionalidades.
+
