@@ -38,7 +38,7 @@ const ThemeToggleButton = () => {
     <button
       id="toggle-theme"
       type="button"
-      className={`fixed top-1.5 right-2 border-2 cursor-pointer p-0.5 bg-gray-100 rounded-full transform transition-all hover:scale-110 ${isDark ? "dark:bg-gray-800" : ""}`}
+      className={`absolute top-1.5 right-2 border-2 cursor-pointer p-0.5 bg-gray-100 rounded-full transform transition-all hover:scale-110 ${isDark ? "dark:bg-gray-800" : ""}`}
       onClick={toggleTheme}
       title={isDark ? "Cambiar a tema light" : "Cambiar a tema dark"}
     >
