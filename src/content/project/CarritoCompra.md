@@ -57,7 +57,7 @@ La plataforma **Landing Page** está construida utilizando un conjunto de tecnol
 
 ## 🔧 Instalación y Ejecución
 
-Para ejecutar este proyecto localmente, necesitarás tener [Node.js](https://nodejs.org/) y npm instalados.
+Para ejecutar este proyecto localmente, necesitarás tener <a href="https://nodejs.org/" className="dark:text-white text-black" >Node.js</a> y npm instalados.
 
 1.  Clona el repositorio:
     ```bash
