@@ -1,10 +1,14 @@
 ---
-title: "Personalizacion - Guia"
+title: "Portafolio Personal"
 subtitle: "Portfolio para devs"
-description: "Este es un pequeño proyecto personal en el que desarrollé una plantilla de portfolio responsive."
+description: "Este es un pequeño proyecto personal en el que desarrollé una plantilla de portfolio responsive con Astro y React."
 utils: ["Astro", "Tailwind", "React"]
 heroImage: /images/Portfolio/portfolio1.png
-pubDate: "Feb 09 2025"
+pubDate: "Diciembre 31 2025"
+deployed: true
+url: 'https://jaimesuarez14.github.io/Data_Max/login.html'
+urlGithub: 'https://github.com/JaimeSuarez14/Data_Max.git'
+
 ---
 
 # Portafolio Web Personal
