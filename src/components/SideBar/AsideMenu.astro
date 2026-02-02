@@ -48,9 +48,9 @@ const whatsapp = import.meta.env.LINK_WHATSAPP || " ";
       >{alias}</span
     >
     <ul class="flex flex-col w-full select-none">
-      <SideLi role={`${role1}`} href={role1}/>
-      <SideLi role={`${role2}`} href={role2} />
-      <SideLi role={`${experience}`} href={experience} />
+      <SideLi role={`${role1}`} href={"/"+role1}/>
+      <SideLi role={`${role2}`} href={"/"+role2} />
+      <SideLi role={`${experience}`} href={"/"+experience} />
     </ul>
   </div>
 </div>
