@@ -1,56 +1,56 @@
 ---
 title: 'Gestor Tareas 1'
 subtitle: 'App Web'
-description: 'Este proyecto es una aplicación de carrito de compras simple creada con HTML, CSS y JavaScript. Permite a los usuarios ver una lista de productos, agregarlos a un carrito de compras y ver el total del carrito.'
-utils: [ 'HTML', 'Javascript',"Css" ,'Bootstrap']
-heroImage: '/images/DataMax/escritorio-home.png'
-pubDate: 'Jul 09 2025'
-deployed: true
-url: 'https://jaimesuarez14.github.io/Data_Max/login.html'
-urlGithub: 'https://github.com/JaimeSuarez14/Data_Max.git'
+description: 'Este un proyecto personal dividido en dos capas: el frontend que tiene la UI de gestión de tareas construida con React, Vite y TypeScript. y el Backend en Node.js con Express'
+utils: [ 'Vite', 'React',"Typescript" ,'Tailwind', "Node"]
+heroImage: '/images/GestorTareasV1React/lista.png'
+pubDate: 'Jan 01 2026'
+deployed: false
+url: ''
+urlGithub: 'https://github.com/JaimeSuarez14/app-gestion-tareas-react-frontend.git'
 ---
 
 # Tienda Online Data Max
 #### Plataforma de Venta en Línea
 <div className="grid grid-cols-2 md:grid-cols-4 md:gap-1">
-<img className="m-0" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-<img className="m-0"  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
-<img className="m-0"  src="https://img.shields.io/badge/javascript-f3c63e?style=for-the-badge&logo=javascript&logoColor=white" alt="javascript">
+<img className="m-0" src="https://img.shields.io/badge/tailwind-E34F26?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="tailwind">
+<img className="m-0"  src="https://img.shields.io/badge/react-58c4dc?style=for-the-badge&logo=react&logoColor=white" alt="react">
 <img className="m-0"  src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-<img className="m-0"  src="https://img.shields.io/badge/bootstrap-674ea7?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstraps">
+<img className="m-0"  src="https://img.shields.io/badge/typescript-1572B6?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
 </div>
-Este proyecto es una aplicación de carrito de compras simple creada con HTML, CSS y JavaScript. Permite a los usuarios ver una lista de productos, agregarlos a un carrito de compras y ver el total del carrito.
+Este un proyecto personal dividido en dos capas: el frontend que tiene la UI de gestión de tareas construida con React, Vite y TypeScript. y el Backend en Node.js con Express.
 
 
 
 ## Funcionalidades Principales
 
-- Visualización de productos desde un archivo de datos.
-- Agregar y eliminar productos del carrito.
-- Cálculo dinámico del total del carrito.
-- Uso de Módulos de ES para una mejor organización del código.
+- Crear un usuario y hacer el login.
+- Agregar un tarea y modificar las tareas.
+- Modificar las tareas y eliminar las tareas.
+- Agregar imagen a la tareas.
+- Gestionar a los usuarios con admin.
 
 <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4">
   <div className="flex flex-col ">
    <div class="flex flex-col text-center">
-    <img src="/images/DataMax/escritorio-home.png" alt="Panadería Astro 1" className="w-full mx-auto object-cover shadow-lg hover:scale-105 transform transition-all  p-1 rounded-lg"/>
-    <span class="-mt-7 dark:text-paragraph-dark text-paragraph-light">Home Principal</span>
+    <img src="/images/GestorTareasV1React/lista.png" alt="Panadería Astro 1" className="w-full mx-auto object-cover shadow-lg hover:scale-105 transform transition-all  p-1 rounded-lg"/>
+    <span class="-mt-7 dark:text-paragraph-dark text-paragraph-light">Lista de Tareas</span>
    </div>
    <div class="flex flex-col text-center">
-     <img src="/images/DataMax/login.png" alt="Panadería Astro 2" className=" w-full h-full object-cover shadow-lg hover:scale-105 transform transition-all  p-1 rounded-lg"/>
-     <span class="-mt-7 dark:text-paragraph-dark text-paragraph-light">Login</span>
+     <img src="/images/GestorTareasV1React/PanelTareas.png" alt="Panadería Astro 2" className=" w-full h-full object-cover shadow-lg hover:scale-105 transform transition-all  p-1 rounded-lg"/>
+     <span class="-mt-7 dark:text-paragraph-dark text-paragraph-light">Principal Tareas</span>
   </div>
   </div>
   <div className="flex flex-col overflow-hidden min-h-full mx-auto
   ">
-    <img src="/images/DataMax/movil-home.png" alt="Panadería Astro 3" className=" flex hover:scale-105 transform transition-all  flex-col items-center rounded-lg justify-center my-auto object-cover p-1 shadow-lg"/>
+    <img src="/images/GestorTareasV1React/movil.png" alt="Panadería Astro 3" className=" flex hover:scale-105 transform transition-all  flex-col items-center rounded-lg justify-center my-auto object-cover p-1 shadow-lg"/>
     <span class="-mt-7 text-nowrap text-center dark:text-paragraph-dark text-paragraph-light">Responsive Movil</span>
   </div>
 </div>
 
 ## Tecnologías Utilizadas
 
-La plataforma **Data Max** está construida utilizando un conjunto de tecnologías modernas que aseguran una experiencia de usuario fluida y un rendimiento óptimo:
+La plataforma **Gestor de Tareas** está construida utilizando un conjunto de tecnologías modernas que aseguran una experiencia de usuario fluida y un rendimiento óptimo:
 
 - **Javascript**: Para una interfaz de usuario interactiva y dinámica, permitiendo una experiencia de compra en línea ágil.
 - **Node.js**: Como entorno de desarrollo.
