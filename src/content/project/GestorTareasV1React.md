@@ -52,11 +52,15 @@ Este un proyecto personal dividido en dos capas: el frontend que tiene la UI de 
 
 La plataforma **Gestor de Tareas** está construida utilizando un conjunto de tecnologías modernas que aseguran una experiencia de usuario fluida y un rendimiento óptimo:
 
-- **Javascript**: Para una interfaz de usuario interactiva y dinámica, permitiendo una experiencia de compra en línea ágil.
-- **Node.js**: Como entorno de desarrollo.
-- **CSS**: Para personalizar los estilos.
-- **Bootstrap**: Para diseñar una interfaz moderna, adaptativa y fácil de usar.
-
+- React: Biblioteca para construir interfaces de usuario.
+- Vite: Herramienta de construcción rápida para desarrollo web moderno.
+- TypeScript: Superset de JavaScript que añade tipado estático.
+- React Router: Para el enrutamiento en la aplicación.
+- Redux Toolkit: Para la gestión del estado de la aplicación.
+- Axios: Para realizar peticiones HTTP al backend.
+- Tailwind CSS: Framework de CSS para un diseño rápido y personalizado.
+- Node.js: Del lado del servidor para gestionar las apis
+- cloudinary: Para gestionar las imagenes en la nube.
 
 ## 🔧 Instalación y Ejecución
 
@@ -64,12 +68,12 @@ Para ejecutar este proyecto localmente, necesitarás tener <a href="https://node
 
 1.  Clona el repositorio:
     ```bash
-    git clone https://github.com/JaimeSuarez14/Data_Max.git
+    git clone https://github.com/JaimeSuarez14/app-gestion-tareas-react-frontend.git
     ```
 
 2.  Navega al directorio del proyecto:
     ```bash
-    cd Data_Max
+    cd app-gestion-tareas-react-frontend
     ```
 
 3.  Instala las dependencias de desarrollo:
@@ -90,11 +94,7 @@ Esto abrirá el proyecto en tu navegador web predeterminado.
 - Usuario Demo: jaime
 - Password: 123456
 
-1.  Abre la aplicación en tu navegador web.
-2.  Explora la lista de productos disponibles.
-3.  Haz clic en "Agregar al Carrito" para agregar productos al carrito.
-4.  Ve a la sección del carrito para ver los productos agregados.
-5.  Puedes eliminar productos del carrito si lo deseas.
-6.  El total del carrito se actualizará dinámicamente.
-7.  Puedes finalizar la compra y ver un mensaje de confirmación.
-8. Inicia sesión con tu usuario y contraseña para acceder a más funcionalidades.
+1. Autenticación de usuarios: Registro e inicio de sesión.
+2. Gestión de tareas: Crear, listar, ver detalles de tareas.
+3. Panel de control: Visualización principal de las tareas.
+4. Rutas protegidas: Solo los usuarios autenticados pueden acceder al panel de control.
